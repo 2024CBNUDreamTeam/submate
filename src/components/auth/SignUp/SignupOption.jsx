@@ -45,6 +45,10 @@ const SignupOption = ({ email, setUserInput }) => {
       <Typing str="Congratulation!🥳🎉" isLast={0} />
       <Typing
         str="What OTT Services are you subscribing to?"
+        isLast={0}  // 1-> 0 변경 
+      />
+      <Typing
+        str="이 콘텐츠는 Tving을 제공하지 않습니다."
         isLast={1}
         setAnimationCompleted={() => {
           setAnimationCompleted(true);
